@@ -125,6 +125,12 @@ a {
   .pollen-menu a {
     color: white;
   }
+  .pollen-home {
+    font-size: 40px;
+  }
+  .right-item {
+    font-size: 40px;
+  }
 
   .row {
     display: block;
@@ -134,18 +140,22 @@ a {
     width: 100vw;
   }
   .column img {
-    width: 110vw;
-    margin-left: -10px;
+    width: 100vw;
   }
   .header {
     padding: 0px 20px;
     padding-top: 30px;
+    font-size: 40px;
   }
   .body {
     padding: 20px;
+    font-size: 10px;
   }
   .link-grid {
     padding: 20px;
+  }
+  .collab {
+    width: 360px;
   }
   .bottom-links {
     padding: 40px 20px;
