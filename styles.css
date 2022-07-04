@@ -78,6 +78,13 @@ a {
   position: absolute;
   bottom: 0px;
 }
+@media only screen and (max-height: 550px) {
+  .bottom-info {
+    position: relative;
+    background-color: red;
+    padding-top: 40px;
+  }
+}
 
 /* 🔵  TOP RIGHT COL */
 .top-info .header {
@@ -91,9 +98,6 @@ a {
 }
 
 /* 🔵  BOTTOM RIGHT COL */
-.building {
-  padding-top: calc(100vh - 600px);
-}
 
 .bottom-info .header {
   font-size: 20px;
