@@ -29,7 +29,7 @@ a {
   display: flex;
   justify-content: space-between;
 
-  padding: 30px 40px;
+  padding: 20px 40px;
 }
 
 .pollen-home {
@@ -52,6 +52,7 @@ a {
   width: calc(100% - 80px);
 
   padding: 20px 40px;
+  padding-top: 0px;
 }
 
 .column {
@@ -68,7 +69,7 @@ a {
 
 .column img {
   width: calc(100% - 20px);
-  height: calc(100vh - 170px);
+  height: calc(100vh - 125px);
 
   object-fit: cover;
 }
@@ -94,7 +95,7 @@ a {
 .top-info .body {
   font-size: 18px;
   font-weight: 400;
-  padding-top: 10px;
+  padding-top: 0px;
 }
 
 /* 🔵  BOTTOM RIGHT COL */
@@ -112,13 +113,17 @@ a {
 .link-grid {
   display: flex;
   flex-wrap: wrap;
+  justify-content: flex-start;
 }
 .collab {
-  width: 160px;
   margin: 0px;
   font-size: 18px;
   font-weight: 400;
   padding-top: 2px;
+  margin-right: 6.5px;
+}
+.collab:hover {
+  text-decoration: underline;
 }
 
 /* 🟢  RIGHT COL */
@@ -150,11 +155,10 @@ object {
     color: black;
   }
   .pollen-home {
-    font-size: 60px;
+    font-size: 40px;
   }
   .right-item {
-    font-size: 40px;
-    line-height: 80px;
+    font-size: 30px;
   }
 
   .row {
@@ -197,7 +201,7 @@ object {
     padding-top: 4px;
   }
   .collab {
-    width: 360px;
+    /* width: 360px; */
     font-size: 40px;
   }
   .bottom-info {
